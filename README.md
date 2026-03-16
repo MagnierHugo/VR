@@ -30,3 +30,16 @@ Une 'simulation' de tire à l'arc dans laquelle le joueur peut expérimenté ave
 
 ### Problèmes rencontrés
 - Collision entre la flèche et l'arc au moment du tiré de la flèche
+
+## Jeu de BeatSaber (Léo Guillemart)
+
+### Description
+Une reproduction du jeu beatsaber avec un scope réduit, proposant des sabres associés à une couleur, un score et un temps de jeu maximum défini à 60 secondes.
+
+### Comment Jouer
+- La partie débute à la prise en main de l'un des deux sabres.
+- Dès lors, des cubes de deux couleurs différentes arrivent vers le joueur à un interval régulier.
+- Tout les cubes qui sont détruit font gagner un point de score au joueur, tout les cubes qui sont ratés font perdre un point de score au joueur. La partie se termine au bout de 60 secondes
+
+### Problèmes rencontrés
+- La gestion du gameplay se fait principal par les sabres qui font office de game manager. Appliquer cette logique n'était pas évidente au début.
