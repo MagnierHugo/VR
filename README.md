@@ -55,3 +55,16 @@ Une 'simulation' de tire au sniper dans laquelle le joueur peut expérimenter de
 
 ### Problèmes rencontrés
 - Interaction a deux main sur un même Object
+
+## Jeu d'escalade (Ruben PIRES)
+Description
+Une "simulation" d'escalade dans laquelle le joueur peut escalader des murs en s'agrippant à des accroches avec ses deux mains. Il a également le pouvoir de se propulser dans les airs à l'aide de la force de ses bras. De plus, il est limité par une barre de stamina pour chacune de ses mains, ce qui nécessite une grande rapidité d'exécution.
+
+### Comment Jouer
+Lorsque le joueur s'approche d'accroches fixées sur les murs, il peut s'y agripper avec chacune de ses mains.
+Dès qu'il attrape une accroche, une barre de stamina s'affiche sur sa main, indiquant ce qu'il lui reste d'énergie avant de lâcher prise automatiquement. Il peut relâcher l'accroche pour que sa stamina remonte.
+De plus, le joueur peut se jeter dans les airs à l'aide des accroches : si le joueur amorce un mouvement et relâche l'accroche au dernier moment, il sera propulsé dans les airs dans la direction souhaitée.
+Le but est d'aller tout en haut de la tour.
+
+### Problèmes rencontrés
+Erreur lors du calcul de la vélocité du joueur (angle erroné et inversé). De plus, la vélocité me balançait contre le mur et la force continuait de m'attirer vers celui-ci, mais le sweep (détection de collision) empêchait le joueur de continuer au travers. Par conséquent, la vélocité me laissait complètement bloqué contre le mur.
