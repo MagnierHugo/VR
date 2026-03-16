@@ -43,3 +43,15 @@ Une reproduction du jeu beatsaber avec un scope réduit, proposant des sabres as
 
 ### Problèmes rencontrés
 - La gestion du gameplay se fait principal par les sabres qui font office de game manager. Appliquer cette logique n'était pas évidente au début.
+
+## Jeu de tire au sniper (Axami Mohamed)
+
+### Description
+Une 'simulation' de tire au sniper dans laquelle le joueur peut expérimenter des tirs su sniper ainsi qu'un rechargement manuelle entre chaque tirs.
+
+### Comment Jouer
+- Le sniper et le levier permettant le rechargement peuvent être grab de manière normal.
+-Entre chaque tir, l’utilisateur doit recharger son arme en effectuant le mouvement caractéristique d’un fusil de précision : tirer le levier vers l’arrière puis le ramener vers l’avant. Ce mouvement permet d’éjecter la douille usagée de la chambre et de préparer l’arme pour le tir suivant.
+
+### Problèmes rencontrés
+- Interaction a deux main sur un même Object
