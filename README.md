@@ -68,3 +68,16 @@ Une "simulation" d'escalade dans laquelle le joueur peut escalader des murs en s
 
 ### Problèmes rencontrés
 Erreur lors du calcul de la vélocité du joueur (angle erroné et inversé). De plus, la vélocité me balançait contre le mur et la force continuait de m'attirer vers celui-ci, mais le sweep (détection de collision) empêchait le joueur de continuer au travers. Par conséquent, la vélocité me laissait complètement bloqué contre le mur.
+
+
+
+## Jeu de Riot (Antoine riviale)
+
+### Description
+Le but du jeu est d eliminer les ennemis (les cubes avec des guns) en les frappant a l aide de l epee.
+Il est possible de parer les balles avec le riot shield
+
+
+### Problèmes rencontrés
+
+Problemes de gestion de physique
